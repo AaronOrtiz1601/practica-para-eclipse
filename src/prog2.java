@@ -9,6 +9,8 @@ public class prog2 {
 
         System.out.println("Introduce el segundo número: ");
         int num2 = scanner.nextInt();
+        System.out.println("Introduce el segundo número: ");
+        int num3 = scanner.nextInt();
 
         // Validar que los números son distintos
         if (num1 == num2) {
@@ -23,6 +25,10 @@ public class prog2 {
         // Incrementar de 7 en 7
         for (int i = start; i <= end; i += 7) {
             System.out.println(i);
+        }
+        if (num3>num1&&num3<num2)
+        {
+          System.out.println(num3);
         }
     }
 }
